@@ -1,6 +1,6 @@
 [project]
 name = "dkdc-user"
-version = "0.0.1"
+version = "0.0.2"
 authors = [{ name = "Cody", email = "cody@dkdc.dev" }]
 description = "users"
 readme = "readme.md"

@@ -8,7 +8,7 @@ from dkdc_state import State, ibis, dt
 class User(State):
     def __init__(self, dbpath: str = None):
         if dbpath is None:
-            dbpath = os.path.join(get_dkdc_dir(), "users.db")
+            dbpath = os.path.join(get_dkdc_dir(), "user.db")
         super().__init__(dbpath=dbpath)
 
     def _cons(self) -> (ibis.BaseBackend, ibis.BaseBackend):
